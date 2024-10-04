@@ -19,7 +19,7 @@ function Register() {
                     email: params.email,
                     password: params.password,
                 })
-                toast.success("Aw, kamu bsru saja mendaftar!", {
+                toast.success("Aw, kamu baru saja mendaftar!", {
                     onClose: () => {
                         navigate('/');
                     }
